@@ -1,0 +1,24 @@
+{
+  "name": "youssef-scuba-deployment",
+  "description": "Deploy Youssef Scuba Diving Club website to Vercel",
+  "framework": "nextjs",
+  "buildCommand": "npm run build",
+  "startCommand": "npm start",
+  "env": [
+    {
+      "key": "NEXT_PUBLIC_WHATSAPP_NUMBER",
+      "description": "WhatsApp number without +961",
+      "value": ""
+    },
+    {
+      "key": "NEXT_PUBLIC_PHONE_NUMBER",
+      "description": "Phone number with country code",
+      "value": ""
+    },
+    {
+      "key": "NEXT_PUBLIC_EMAIL",
+      "description": "Contact email address",
+      "value": ""
+    }
+  ]
+}
